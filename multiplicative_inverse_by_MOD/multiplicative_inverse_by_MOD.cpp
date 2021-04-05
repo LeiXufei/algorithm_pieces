@@ -30,5 +30,5 @@ int binpow(int x, int y)
 
 int divide(int x, int y)
 {
-    return mul(x, binpow(y, MOD ¡ª 2));
+    return mul(x, binpow(y, MOD - 2));
 }
